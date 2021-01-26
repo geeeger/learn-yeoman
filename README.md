@@ -3,17 +3,17 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-yyn-utils-generator-config using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-config using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-yyn-utils-generator-config
+npm install -g generator-config
 ```
 
 Then generate your new project:
 
 ```bash
-yo yyn-utils-generator-config
+yo generator-config
 ```
 
 ## Getting To Know Yeoman
