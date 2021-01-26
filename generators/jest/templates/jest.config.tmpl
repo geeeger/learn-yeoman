@@ -1,0 +1,25 @@
+module.exports = {
+  globals: {
+    skipBabel: true,
+  },
+  <% if (typescript) { %>
+  preset: 'ts-jest',
+  <% } %>
+  testEnvironment: 'jsdom',
+  testPathIgnorePatterns: ['/node_modules/', '/output/', '/pages/', '/pkg/', '/dist/', '/docs/', '/coverage/'],
+  <% if (typescript) { %>
+  testMatch: ['**/__tests__/**/*.ts'],
+  <% } else { %>
+  testMatch: ['**/__tests__/**/*.js'],
+  <% } %>
+  rootDir: './',
+  <% if (coverage) { %>
+  collectCoverageFrom: ['**/src/**/*.<% if (typescript) { %>ts<% } else { %>js<% } %>'],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['cobertura', 'text'],
+  reporters: [
+    'default',
+    ['jest-junit', { suiteName: 'jest tests', suiteNameTemplate: '{filepath}' }],
+  ],
+  <% } %>
+};

@@ -1,0 +1,9 @@
+<% if (typescript) { %>
+export default function helloWorld(): string {
+  return 'HelloWorld!';
+}
+<% } else { %>
+export default function helloWorld() {
+  return 'HelloWorld!';
+}
+<% } %>

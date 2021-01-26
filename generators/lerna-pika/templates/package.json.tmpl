@@ -1,0 +1,33 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= desc %>",
+  <% if (typescript) { %>
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  <% } else { %>
+  "main": "src/index.js",
+  <% } %>
+  <% if (homepage) { %>
+  "homepage": "<%= homepage %>",
+  <% } %>
+  "author": {
+    <% if (author) { %>
+    "name": "<%= author %>",
+    <% } %>
+    <% if (email) { %>
+    "email": "<%= email %>"
+    <% } %>
+  },
+  <% if (homepage) { %>
+  "repository": {
+    "type": "git",
+    "url": "<%= homepage %>"
+  },
+  <% } %>
+  "publishConfig": {
+    "access": "public",
+    "registry": "<%= registry %>"
+  },
+  "license": "MIT"
+}
