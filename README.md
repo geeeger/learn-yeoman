@@ -1,4 +1,4 @@
-# generator-yyn-utils-generator-config [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-config [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > wtf
 
 ## Installation
@@ -28,11 +28,11 @@ yo generator-config
 Apache-2.0 © []()
 
 
-[npm-image]: https://badge.fury.io/js/generator-yyn-utils-generator-config.svg
-[npm-url]: https://npmjs.org/package/generator-yyn-utils-generator-config
-[travis-image]: https://travis-ci.com//generator-yyn-utils-generator-config.svg?branch=master
-[travis-url]: https://travis-ci.com//generator-yyn-utils-generator-config
-[daviddm-image]: https://david-dm.org//generator-yyn-utils-generator-config.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-yyn-utils-generator-config
-[coveralls-image]: https://coveralls.io/repos//generator-yyn-utils-generator-config/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-yyn-utils-generator-config
+[npm-image]: https://badge.fury.io/js/generator-config.svg
+[npm-url]: https://npmjs.org/package/generator-config
+[travis-image]: https://travis-ci.com//generator-config.svg?branch=master
+[travis-url]: https://travis-ci.com//generator-config
+[daviddm-image]: https://david-dm.org//generator-config.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-config
+[coveralls-image]: https://coveralls.io/repos//generator-config/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-config
